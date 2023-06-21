@@ -1,0 +1,116 @@
+<!-- Задача 2. Вычислить результат 158 + 2 и вывести это в диалоговое окно. -->
+<!-- <!DOCTYPE html>
+<html>
+<head>
+<meta charset = "utf-8">
+</head>
+<body>
+    <script> language="JavaScript">
+    alert(`результат: ${158 + 2}`);
+    </script>
+</body>
+</html> 
+ -->
+
+
+
+<!-- Задача 4. Вызвать диалоговое окно с заголовком "как вас зовут?" и подсказкой  в поле ввода "Имя".
+А затем вывести имя, которое ввел пользователь в поле ввода. -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset = "utf-8">
+</head>
+<body>
+    <script language="JavaScript">
+
+    let name = prompt("Как вас зовут?"," Имя");
+    
+    function showMess(){
+        let mess = 'Привет, ' + name;
+        alert(mess);
+        }
+    showMess();
+
+    </script>
+</body>
+</html> 
+
+
+
+<!-- Задача 4. Написать функцию выводащую в диалоговом окне текст и переменную.
+    Например, "Привет, Алевтина". Где имя Алевтина это внешняя переменная -->
+<!-- <!DOCTYPE html>
+<html>
+<head>
+<meta charset = "utf-8">
+</head>
+<body>
+    <script language="JavaScript">
+
+    let name = 'Алевтина';
+    function showMess(){
+        let mess = 'Привет, ' + name;
+        alert(mess);
+        }
+    showMess();
+    </script>
+</body>
+</html>  -->
+
+<!-- 
+Задача 6. Вывести на экран в диалоговом окне текст с сообщением " Вы уверены?" и кнопками "ОК" и "Отмена" 
+          При нажатии ОК вывести в диалоговом окне текст с сообщением " Мы рады что вы уверены"
+          При нажатии ОТМЕНА вывести в диалоговом окне текст с сообщением "Жаль, что вы не уверены" -->
+ <!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset = "utf-8">
+    <meta name="viewport" content="width=device=width, 
+    initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        if (confirm('Вы уверены?')) {
+            alert('Мы рады, что вы уверены!');
+        } else {
+            alert('Жаль, что вы не уверены...');
+        }
+    </script>
+</body>
+</html>  -->
+
+<!-- 
+Задача 7. Перепишите код используя конструкцию swith-case запрашивая возраст пользователя через диалоговое окно.-->
+ <!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset = "utf-8">>
+    <title>Сколько вам лет</title>
+</head>
+
+<body>
+    <script>
+        let age = prompt('Сколько вам лет?');
+
+        switch(age) {
+            case '18':
+                alert('ВЫ совершеннолетний, все можно!');
+                break;
+            case '10':
+                alert('Вам надо учить уроки!');
+                break;
+            case '30':
+                alert('Ложитесь спать, завтра на рабоу!');
+                break;
+            default:
+                alert('Мы не знаем, что Вам делать!')
+                break;
+        }
+    </script>
+</body>
+</html>  -->
